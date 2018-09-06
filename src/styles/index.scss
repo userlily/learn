@@ -7,9 +7,9 @@
 
 body {
   height: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;/*消除文字锯齿*/
+  -webkit-font-smoothing: antialiased;  /*消除文字锯齿*/
+  text-rendering: optimizeLegibility;/*浏览器文字渲染方式*/
   font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
 }
 
@@ -29,7 +29,7 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  box-sizing: inherit; //盒模型继承  修饰伪元素
 }
 
 .no-padding {
