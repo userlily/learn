@@ -2,7 +2,7 @@ import Vue from 'vue'
 import SvgIcon from '@/components/SvgIcon'// svg组件
 import generateIconsView from '@/views/svg-icons/generateIconsView.js'// just for @/views/icons , you can delete it
 
-// register globally
+// register globally  就注册了一个全局组件其他的都没有用
 Vue.component('svg-icon', SvgIcon)
 
 const requireAll = requireContext => requireContext.keys().map(requireContext)
